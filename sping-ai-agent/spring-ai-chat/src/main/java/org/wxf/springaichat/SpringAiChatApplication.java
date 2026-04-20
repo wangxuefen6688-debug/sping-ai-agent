@@ -1,13 +1,13 @@
-package org.wxf.spingaiagent;
+package org.wxf.springaichat;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpingAiAgentApplication {
+public class SpringAiChatApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpingAiAgentApplication.class, args);
+        SpringApplication.run(SpringAiChatApplication.class, args);
     }
 
 }

@@ -1,10 +1,10 @@
-package org.wxf.spingaiagent;
+package org.wxf.springaichat;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpingAiAgentApplicationTests {
+class SpringAiChatMemoryApplicationTests {
 
     @Test
     void contextLoads() {
