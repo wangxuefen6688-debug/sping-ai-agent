@@ -8,7 +8,6 @@
         <artifactId>sping-ai-agent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <groupId>org.wxf</groupId>
     <artifactId>spring-ai-chat</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
