@@ -7,12 +7,11 @@
         <artifactId>sping-ai-agent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <packaging>jar</packaging>
     <groupId>org.wxf</groupId>
-    <artifactId>spring-ai-chat-memory</artifactId>
+    <artifactId>spring-ai-tool-calling</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-ai-chat-memory</name>
-    <description>spring-ai-chat-memory</description>
+    <name>spring-ai-tool-calling</name>
+    <description>spring-ai-tool-calling</description>
     <url/>
     <licenses>
         <license/>
@@ -30,6 +29,10 @@
         <java.version>17</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
