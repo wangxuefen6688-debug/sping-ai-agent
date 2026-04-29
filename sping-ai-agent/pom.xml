@@ -30,6 +30,7 @@
         <module>spring-ai-chat-memory</module>
         <module>spring-ai-chat</module>
         <module>spring-ai-tool-calling</module>
+        <module>spring-ai-rag</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
