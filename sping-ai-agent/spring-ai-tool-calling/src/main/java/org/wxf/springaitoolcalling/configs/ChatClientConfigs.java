@@ -8,13 +8,14 @@ import org.springframework.ai.zhipuai.ZhiPuAiChatModel;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.wxf.springaitoolcalling.tools.DateTimeTools;
+import org.wxf.springaitoolcalling.tools.MathTools;
 
 @Configuration
 public class ChatClientConfigs {
     @Bean
     public ChatClient chatClient(ZhiPuAiChatModel zhiPuAiChatModel, ChatMemory chatMemory) {
         return ChatClient.builder(zhiPuAiChatModel)
-                .defaultTools(new DateTimeTools())
+                .defaultTools(new DateTimeTools(), new MathTools())
                 .defaultAdvisors(MessageChatMemoryAdvisor.builder(chatMemory).build())
                 .build();
     }
